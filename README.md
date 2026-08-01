@@ -138,7 +138,7 @@ There are two ways to explore this project:
    ```
 
    Based on this instruction, the LLM interprets the request and generates the required arguments for the wildfire assessment tool. An example of the generated tool arguments is shown below:
-   ```bash
+   ```text
    INFO | __main__ | TOOL CALLS: 
 
       [{'name': 'assess_fire_event',
@@ -156,7 +156,7 @@ There are two ways to explore this project:
    ```
 
    After executing the workflow, the agent returns the final assessment outputs, including the generated geospatial products. An example of the final results is shown below:
-   ```bash
+   ```markdown
    | INFO | __main__ | FINAL RESPONSE: 
    The wildfire impact assessment for the area around Girande, France has been successfully completed. Here are the key findings:
 
@@ -173,11 +173,12 @@ There are two ways to explore this project:
    Would you like me to provide any further analysis or assistance based on these results? 
    ```
 ----
-##  Miscleaneous
+##  Miscellaneous
 
 To make the notebook fully reproducible and avoid repeated satellite data requests, the processed Sentinel-2 imagery used in this analysis is provided separately. Please put the pre-downloaded S2 under the `./data/temp`. In addition to that, the deliveravle products is also provided in the following links and please put it under `./data/deliverables`.
 
 Pre-downloaded Sentinel-2 data: https://huggingface.co/datasets/wtr001/post-fire-recovery-monitoring/resolve/main/pre-downloaded-s2.zip
+
 Deliverable products: https://huggingface.co/datasets/wtr001/post-fire-recovery-monitoring/resolve/main/deliverabels.zip
 
 ---
