@@ -16,3 +16,10 @@
     regionmask
     cf_xarray
     geocube
+    tenacity
+
+    # AI
+    fastmcp
+    langchain
+    langchain-ollama
+    langgraph
