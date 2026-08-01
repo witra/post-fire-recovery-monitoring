@@ -2,6 +2,6 @@
 submission*.ipynb
 *.zip
 .ex*
-data/
+data*/
 explore/
 .DS*
